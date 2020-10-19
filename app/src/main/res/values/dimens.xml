@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ly_16">16dp</dimen>
+    <dimen name="ly_25">25dp</dimen>
+    <dimen name="ly_016">16sp</dimen>
+</resources>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:gravity="center_horizontal"
+            android:text="@string/lets_check_your_knowledge"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/how_many_countries_in_the_world"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ly_16"
+            android:hint="@string/answer_here" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:layout_marginTop="@dimen/ly_25"
+            android:layout_marginBottom="@dimen/ly_16"
+            android:text="@string/_1_which_country_are_in_america"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ly_016" />
+
+        <CheckBox
+            android:id="@+id/ans_brazil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:paddingStart="@dimen/ly_16"
+            android:text="@string/brazil"
+            tools:ignore="RtlSymmetry" />
+
+        <CheckBox
+            android:id="@+id/ans_mexico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:paddingStart="@dimen/ly_16"
+            android:text="@string/mexico"
+            tools:ignore="RtlSymmetry" />
+
+        <CheckBox
+            android:id="@+id/ans_colombia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:paddingStart="@dimen/ly_16"
+            android:text="@string/colombia"
+            tools:ignore="RtlSymmetry" />
+
+        <CheckBox
+            android:id="@+id/ans_scotland"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:paddingStart="@dimen/ly_16"
+            android:text="@string/scotland"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:layout_marginTop="@dimen/ly_25"
+            android:layout_marginBottom="@dimen/ly_16"
+            android:text="@string/which_indian_umpire_has_been_recently_promoted_as_umpire_for_international_hockey_federation_fih"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ly_016" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/deepika_kaul"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/napoleon_singh"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/satinder_sharma"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:id="@+id/q3_ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/durga_thakur"
+                tools:ignore="RtlSymmetry" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:layout_marginTop="@dimen/ly_25"
+            android:layout_marginBottom="@dimen/ly_16"
+            android:text="@string/pablo_picasso_belonged_to_which_country"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ly_016" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/france"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/germany"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:id="@+id/q4_ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/spain"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/italy"
+                tools:ignore="RtlSymmetry" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ly_16"
+            android:layout_marginTop="@dimen/ly_25"
+            android:layout_marginBottom="@dimen/ly_16"
+            android:text="@string/who_is_the_famous_painter_in_the_world"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ly_016" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/vincent_van_gogh"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/rembrandt"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:id="@+id/q5_ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/leonardo_da_vinci"
+                tools:ignore="RtlSymmetry" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ly_16"
+                android:paddingStart="@dimen/ly_16"
+                android:text="@string/michelangelo"
+                tools:ignore="RtlSymmetry" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ly_16"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ly_016" />
+
+
+    </LinearLayout>
+</ScrollView>

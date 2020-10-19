@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="lets_check_your_knowledge">Lets Check Your Knowledge…</string>
+    <string name="_1_which_country_are_in_america">2) Which Countries are in America?</string>
+    <string name="brazil">Brazil</string>
+    <string name="mexico">Mexico</string>
+    <string name="colombia">Colombia</string>
+    <string name="scotland">Scotland</string>
+    <string name="which_indian_umpire_has_been_recently_promoted_as_umpire_for_international_hockey_federation_fih">3) Which Indian umpire has been recently promoted as umpire for International Hockey Federation (FIH)?</string>
+    <string name="deepika_kaul">Deepika Kaul</string>
+    <string name="napoleon_singh">Napoleon Singh</string>
+    <string name="satinder_sharma">Satinder Sharma</string>
+    <string name="durga_thakur">Durga Thakur</string>
+    <string name="submit">Submit</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="pablo_picasso_belonged_to_which_country">4) Pablo Picasso belonged to which country?</string>
+    <string name="italy">Italy</string>
+    <string name="spain">Spain</string>
+    <string name="germany">Germany</string>
+    <string name="france">France</string>
+    <string name="who_is_the_famous_painter_in_the_world">5) Who is the top famous painter in the world?</string>
+    <string name="leonardo_da_vinci">Leonardo Da Vinci</string>
+    <string name="vincent_van_gogh">Vincent Van Gogh</string>
+    <string name="rembrandt">Rembrandt</string>
+    <string name="michelangelo">Michelangelo</string>
+    <string name="how_many_countries_in_the_world">1) Who is the CEO of google?</string>
+    <string name="answer_here">Answer here</string>
+</resources>
